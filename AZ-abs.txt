@@ -1,6 +1,7 @@
 az.binbeat~ binaural beat with input for volume (0-1);
 az.binosc~ binaural beat with frequency (Hz), beat (Hz) and amplitude (0-1);
 az.eader~ ready to use envelope Attak-Decay;
+az.lfo~ lfo with depht(0-1) and rate(0-20);
 az.nzvol~ random amplitude generator;
 az.onebang passes just the first bang until it's resetted;
 az.output~ output with mono and stereo inputs;
