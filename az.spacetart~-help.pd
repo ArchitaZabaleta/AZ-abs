@@ -1,0 +1,17 @@
+#N canvas 626 263 450 300 10;
+#X obj 29 60 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1 1
+;
+#X obj 32 98 hsl 128 15 0 127 0 1 empty empty empty -2 -8 0 10 -262144
+-1 -1 8000 0;
+#X obj 29 120 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
+1;
+#X obj 32 158 hsl 128 15 0 127 0 1 empty empty empty -2 -8 0 10 -262144
+-1 -1 10700 0;
+#X obj 181 64 az.out-vu~;
+#X text 74 14 reverberated ambient drone maker;
+#X obj 29 78 az.spacetart~;
+#X obj 29 138 az.spacetart~;
+#X connect 0 0 6 0;
+#X connect 1 0 6 1;
+#X connect 2 0 7 0;
+#X connect 3 0 7 1;
