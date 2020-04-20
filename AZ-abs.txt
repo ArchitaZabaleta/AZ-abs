@@ -10,6 +10,7 @@ az.output~ output with mono and stereo inputs;
 az.phmod~ simple phase modulation;
 az.randometro random metro between min and max tempo in milliseconds;
 az.spacetart~ reverberated ambient drone maker;
+az.spigot~ sends signal to left or right outlet;
 az.svcf~ auto sweeping low/band pass filter;
 az.throwLR~ convenient throw~;
 az.vel2vol~ velocity(0-127) to volume (0-1) utility;
