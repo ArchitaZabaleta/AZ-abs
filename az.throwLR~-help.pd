@@ -1,0 +1,18 @@
+#N canvas 1 97 450 300 10;
+#X obj 91 164 az.throwLR~;
+#X obj 91 114 az.del~ 400 562 0.1 0.2;
+#X obj 282 76 az.out-vu~;
+#X obj 91 32 noise~;
+#X obj 197 52 metro 500;
+#X obj 197 25 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
+1;
+#X obj 91 85 az.eader~ 3 266;
+#X obj 91 55 bp~ 1700 66;
+#X text 63 185 throws to catch~ L and R;
+#X connect 1 0 0 0;
+#X connect 1 1 0 1;
+#X connect 3 0 7 0;
+#X connect 4 0 6 2;
+#X connect 5 0 4 0;
+#X connect 6 0 1 0;
+#X connect 7 0 6 0;

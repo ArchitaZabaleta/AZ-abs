@@ -1,0 +1,19 @@
+#N canvas 1 97 450 300 10;
+#X obj 130 204 az.output~;
+#X obj 106 115 az.eader~ 20 300;
+#X obj 229 81 az.randometro 400 800;
+#X obj 229 53 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X msg 52 45 666 15 174;
+#X msg 129 45 285 47 174;
+#X obj 106 144 az.del~ 666 777 0.2 0.4;
+#X obj 105 79 az.phmod~ 8 95 95;
+#X text 264 5 simple phase modulation;
+#X connect 1 0 6 0;
+#X connect 2 0 1 2;
+#X connect 3 0 2 0;
+#X connect 4 0 7 0;
+#X connect 5 0 7 0;
+#X connect 6 0 0 0;
+#X connect 6 1 0 1;
+#X connect 7 0 1 0;
