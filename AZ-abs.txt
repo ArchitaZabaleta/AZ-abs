@@ -9,7 +9,7 @@ az.output~ output with mono and stereo inputs;
 az.randometro random metro between min and max tempo in milliseconds;
 az.svcf~ auto sweeping low/band pass filter;
 az.vel2vol~ velocity(0-127) to volume (0-1) utility;
-az.vol~ volume with interpolation in ms;
 az.vol-gui~ volume slider with signal input;
+az.vol~ volume with interpolation in ms;
 az.xfade~ 2 in 1 out crossfader;
 
