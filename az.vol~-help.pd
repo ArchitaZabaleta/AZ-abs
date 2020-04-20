@@ -1,0 +1,13 @@
+#N canvas 266 323 450 300 10;
+#X obj 142 74 osc~ 417;
+#X obj 213 62 hsl 90 20 0 1 0 1 empty empty empty -2 -8 0 10 -152663
+-240257 -1 6000 1;
+#X obj 62 155 az.output~;
+#X obj 247 90 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X obj 141 112 az.vol~ 1000;
+#X text 22 25 volume with interpolation in ms;
+#X connect 0 0 4 0;
+#X connect 1 0 4 1;
+#X connect 3 0 4 1;
+#X connect 4 0 2 2;
