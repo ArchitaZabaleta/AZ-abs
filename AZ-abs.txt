@@ -1,11 +1,13 @@
 az.binbeat~ binaural beat with input for volume (0-1);
 az.binosc~ binaural beat with frequency (Hz), beat (Hz) and amplitude (0-1);
+az.del~ mono2stereo simple delay with left/right tempo, feedback and dry/wet;
 az.eader~ ready to use envelope Attak-Decay;
 az.lfo~ lfo with depht(0-1) and rate(0-20);
 az.nzvol~ random amplitude generator;
 az.onebang passes just the first bang until it's resetted;
 az.output~ output with mono and stereo inputs;
 az.randometro random metro between min and max tempo in milliseconds;
+az.svcf~ auto sweeping low/band pass filter;
 az.vel2vol~ velocity(0-127) to volume (0-1) utility;
 az.vol-gui~ volume slider with signal input;
 az.xfade~ 2 in 1 out crossfader;
