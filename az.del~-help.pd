@@ -1,0 +1,19 @@
+#N canvas 252 314 450 300 10;
+#X obj 8 118 az.del~ 432 671 0.2 0.3;
+#X obj 9 44 noise~;
+#X obj 8 91 az.eader~ 5 45;
+#X obj 9 147 az.output~;
+#X obj 89 16 loadbang;
+#X obj 89 40 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1 1
+;
+#X text 155 120 left time \, right time \, feedback \, dry/wet;
+#X obj 8 68 bp~ 1963 77;
+#X obj 89 61 az.randometro 400 1200;
+#X connect 0 0 3 0;
+#X connect 0 1 3 1;
+#X connect 1 0 7 0;
+#X connect 2 0 0 0;
+#X connect 4 0 5 0;
+#X connect 5 0 8 0;
+#X connect 7 0 2 0;
+#X connect 8 0 2 2;
