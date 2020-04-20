@@ -1,0 +1,12 @@
+#N canvas 116 209 450 300 10;
+#X obj 180 98 phasor~ 88;
+#X obj 218 155 ABlfo~ 0.6 3;
+#X obj 178 180 az.output~;
+#X obj 179 128 az.lfo~ 0.1 17;
+#X text 139 45 lfo with depht(0-1) and rate(0-20);
+#X msg 260 93 0.5 4;
+#X connect 0 0 1 0;
+#X connect 0 0 3 0;
+#X connect 1 0 2 1;
+#X connect 3 0 2 0;
+#X connect 5 0 3 1;
