@@ -1,0 +1,11 @@
+#N canvas 1 97 450 300 10;
+#X obj 198 128 az.xfade~;
+#X obj 120 179 az.output~;
+#X obj 198 20 osc~ 396;
+#X obj 240 54 osc~ 417;
+#X obj 284 95 hsl 90 20 0 1 0 1 empty empty empty -2 -8 0 10 -172097
+-257985 -1 0 1;
+#X connect 0 0 1 2;
+#X connect 2 0 0 0;
+#X connect 3 0 0 1;
+#X connect 4 0 0 2;

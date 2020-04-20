@@ -1,0 +1,6 @@
+#N canvas 138 212 450 300 10;
+#X obj 137 147 az.vol-gui~;
+#X obj 138 113 noise~;
+#X obj 58 177 az.output~;
+#X connect 0 0 2 2;
+#X connect 1 0 0 0;

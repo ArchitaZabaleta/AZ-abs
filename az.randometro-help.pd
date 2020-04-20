@@ -1,0 +1,17 @@
+#N canvas 684 127 450 300 10;
+#X obj 172 170 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 172 111 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X msg 238 82 200 300;
+#X msg 296 83 500 600;
+#X text 126 18 Random metro between a min and a max tempo;
+#X floatatom 295 169 5 0 0 0 - - -, f 5;
+#X text 6 38 inlets 1- on/off metro 2- min and max pair outlets 1-
+metro bangs 2- tempo in ms arguments -min&mas pair;
+#X obj 172 136 az.randometro 500 800;
+#X connect 1 0 7 0;
+#X connect 2 0 7 1;
+#X connect 3 0 7 1;
+#X connect 7 0 0 0;
+#X connect 7 1 5 0;

@@ -1,0 +1,43 @@
+#N canvas 467 151 707 452 10;
+#X obj 415 310 random 900;
+#X obj 415 331 + 700;
+#X obj 336 323 tgl 15 0 empty empty empty 17 7 0 10 -33289 -262144
+-1 0 1;
+#X obj 362 354 metro 100;
+#X obj 579 223 nbx 4 14 20 1e+37 0 1 empty empty min 0 -8 0 10 -1 -228856
+-1 500 256;
+#X obj 472 240 nbx 4 14 20 1e+37 0 1 empty empty max 0 -8 0 10 -1 -262144
+-1 600 256;
+#X obj 472 270 -;
+#X obj 456 391 outlet metro;
+#X obj 361 388 outlet bang;
+#X obj 411 121 unpack 0 0;
+#X obj 336 301 inlet;
+#X obj 411 72 loadbang;
+#X obj 411 96 list append \$1 \$2;
+#X msg 312 243 seed \$1;
+#X obj 312 211 realtime;
+#X obj 509 45 inlet;
+#X obj 406 182 t b f f;
+#X connect 0 0 1 0;
+#X connect 1 0 3 1;
+#X connect 1 0 7 0;
+#X connect 2 0 3 0;
+#X connect 3 0 0 0;
+#X connect 3 0 8 0;
+#X connect 4 0 6 1;
+#X connect 5 0 6 0;
+#X connect 6 0 0 1;
+#X connect 9 0 4 0;
+#X connect 9 0 16 0;
+#X connect 9 1 5 0;
+#X connect 10 0 2 0;
+#X connect 11 0 12 0;
+#X connect 11 0 14 1;
+#X connect 12 0 9 0;
+#X connect 13 0 0 0;
+#X connect 14 0 13 0;
+#X connect 15 0 12 0;
+#X connect 16 0 6 0;
+#X connect 16 1 4 0;
+#X connect 16 2 1 1;

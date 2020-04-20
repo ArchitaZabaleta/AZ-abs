@@ -1,0 +1,11 @@
+#N canvas 155 289 450 300 10;
+#X text 38 22 random amplitude driven by noise signal;
+#X obj 85 69 osc~ 741;
+#X obj 152 69 osc~ 639;
+#X obj 85 102 az.nzvol~;
+#X obj 152 102 az.nzvol~;
+#X obj 84 160 az.output~;
+#X connect 1 0 3 0;
+#X connect 2 0 4 0;
+#X connect 3 0 5 0;
+#X connect 4 0 5 1;

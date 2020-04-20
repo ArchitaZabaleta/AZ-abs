@@ -1,0 +1,35 @@
+#N canvas 1 97 450 456 10;
+#X obj 187 288 az.vel2vol~;
+#X obj 187 354 az.output~;
+#X obj 253 181 hsl 100 20 0 127 0 1 empty empty 0-127 8 12 0 10 -261536
+-1 -1 2261 1;
+#X obj 128 127 expr random (30 \, 77) \; random (20 \, 110) \;;
+#X obj 127 78 az.randometro 500 1500;
+#X obj 128 161 mtof;
+#X obj 128 225 phasor~;
+#X obj 128 248 -~ 0.5;
+#X obj 128 271 bp~ 500 12;
+#X obj 128 201 line~;
+#X msg 128 181 \$1 5;
+#X obj 187 310 az.eader~ 12 200;
+#X obj 127 101 t b b;
+#X obj 109 78 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
+1;
+#X obj 187 332 rev2~ 98 78 2000 22;
+#X connect 0 0 11 0;
+#X connect 2 0 0 1;
+#X connect 3 0 5 0;
+#X connect 3 1 2 0;
+#X connect 4 0 12 0;
+#X connect 5 0 10 0;
+#X connect 6 0 7 0;
+#X connect 7 0 8 0;
+#X connect 8 0 0 0;
+#X connect 9 0 6 0;
+#X connect 10 0 9 0;
+#X connect 11 0 14 0;
+#X connect 12 0 11 2;
+#X connect 12 1 3 0;
+#X connect 13 0 4 0;
+#X connect 14 0 1 0;
+#X connect 14 1 1 1;

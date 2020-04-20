@@ -1,0 +1,19 @@
+#N canvas 108 230 560 300 10;
+#X obj 135 186 az.output~;
+#X obj 136 86 rev2~ 88 88 1300 12;
+#X obj 137 18 noise~;
+#X obj 137 49 bp~ 333 44;
+#X obj 213 128 noise~;
+#X obj 294 109 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 1
+1;
+#X obj 213 157 az.eader~ 5 23;
+#X obj 294 132 az.randometro 66 666;
+#X text 233 184 mono input;
+#X connect 1 0 0 0;
+#X connect 1 1 0 1;
+#X connect 2 0 3 0;
+#X connect 3 0 1 0;
+#X connect 4 0 6 0;
+#X connect 5 0 7 0;
+#X connect 6 0 0 2;
+#X connect 7 0 6 2;

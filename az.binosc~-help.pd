@@ -1,0 +1,11 @@
+#N canvas 549 159 450 300 10;
+#X msg 51 50 417 2 0.2;
+#X msg 119 51 528 0.6 0.6;
+#X text 10 4 binosc~ binaural beat with frequency (Hz) \, beat (Hz)
+and amplitude (0-1);
+#X obj 51 81 az.binosc~ 396 3 0.5;
+#X obj 51 118 az.output~;
+#X connect 0 0 3 0;
+#X connect 1 0 3 0;
+#X connect 3 0 4 0;
+#X connect 3 1 4 1;
