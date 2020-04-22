@@ -1,0 +1,7 @@
+#N canvas 2 97 450 300 10;
+#X obj 116 116 az.lilfo~ 0.9;
+#X obj 116 87 osc~ 400;
+#X obj 38 143 az.output~;
+#X text 208 116 little lfo 100% wet signal;
+#X connect 0 0 2 2;
+#X connect 1 0 0 0;
