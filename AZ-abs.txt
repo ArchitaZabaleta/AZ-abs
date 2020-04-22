@@ -3,6 +3,8 @@ az.binosc~ binaural beat with frequency (Hz), beat (Hz) and amplitude (0-1);
 az.del~ mono2stereo simple delay with left/right tempo, feedback and dry/wet;
 az.eader~ ready to use envelope Attak-Decay;
 az.lfo~ lfo with depht(0-1) and rate(0-20);
+az.lilfo~ little lfo with wet signal only;
+az.mtoftune midi to frequency with tuning options;
 az.nzvol~ random amplitude generator;
 az.onebang passes just the first bang until it's resetted;
 az.out-vu~ output with vu meters;
